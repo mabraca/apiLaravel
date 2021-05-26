@@ -22,7 +22,7 @@ class PostsSeeder extends Seeder
 
         Posts::create([
             'title' => 'Prueba de titulo',
-            'content' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque est nibh, rhoncus at posuere rutrum, dapibus sed sapien. Vestibulum aliquam porttitor nisi, eu blandit nisl rutrum quis. Duis vitae egestas lorem. Morbi molestie luctus tellus et dictum. Nam velit libero, porttitor ut gravida consequat, dignissim quis quam. Aliquam erat volutpat. Morbi sed rutrum metus, sed interdum purus. Aliquam cursus est non metus efficitur venenatis. Nunc pharetra ac nibh vel porttitor. Aliquam sed nibh at purus lobortis vehicula. Nam imperdiet nibh non neque ultricies, et consectetur nulla ultrices.',
+            'content' => 'Lorem ipsum dolor sit amet.',
             'status' => 1,
             'user_id' => 1
         ]);
